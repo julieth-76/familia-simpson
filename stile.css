@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+}
+.body {
+  background-color: yellow;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.caja1 {
+  background-color: aqua;
+  padding: 2px;
+  width: 25%;
+  height: 10%;
+}
+.caja2 {
+  background-color: blueviolet;
+  padding: 2px;
+  width: 25%;
+  height: 10%;
+}
+.caja3 {
+  background-color: red;
+  padding: 2px;
+  width: 25%;
+  height: 10%;
+}
+.caja4 {
+  background-color: darkgoldenrod;
+  padding: 2px;
+  width: 25%;
+  height: 10%;
+}
+.caja5 {
+  background-color:  #04b4cc ;
+  padding: 2rem;
+  width: 33.3%;
+  height: 50vh;
+}
+.caja6 {
+  background-color: yellow orange;
+  padding: 2rem;
+  width: 33.3%;
+  height: 50vh;
+}
+.caja7 {
+  background-color:  #242c63 ;
+  padding: 2rem;
+  width: 33.3%;
+  height: 50vh;
+}
+.caja8 {
+  background-color:  #f4b3cb ;
+  padding: 2rem;
+  width: 50%;
+  height: 50vh;
+}
+.caja9 {
+  background-color:  #630b04  ;
+  padding: 2rem;
+  width: 50%;
+  height: 50vh;
+}
+.maggie {
+  padding: 2px;
+  width: 85%;
+  height: 85%;
+}
+.maguie {
+  padding: 2px;
+  padding-bottom: 100%;
+  padding-left: 30%;
+  float: left;
+  width: 30px;
+  height: 40px;
+}
+.bart {
+  padding: 2px;
+  width: 85%;
+  height: 85%;
+}
+.homero {
+  padding: 2px;
+  width: 85%;
+  height: 85%;
+}
+.margue {
+  padding: 2px;
+  width: 85%;
+  height: 85%;
+}
+.lisa {
+  padding: 2px;
+  width: 85%;
+  height: 85%;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-color:aqua;
+  color: aqua;
+}
+.bar{
+  align-items: center;
+  color:aquamarine;
+}
